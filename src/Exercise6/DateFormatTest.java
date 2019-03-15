@@ -1,4 +1,9 @@
 package Exercise6;
+/**
+ * 输出不同地区的时间 日期等等
+ * author 侯粤嘉
+ * 2019.3.14
+ */
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -18,12 +23,12 @@ public class DateFormatTest {
         DateFormat df6 = new SimpleDateFormat("yyyy年MM月dd日");
         //将日期进行不同格式进行输出
         System.out.println("------将日期进行不同格式进行输出-------");
-        System.out.println("按照Java默认的日期格式："+df1.format(date));
-        System.out.println("按照Java默认的日期格式："+df1.format(date));
-        System.out.println("按照指定的格式 yyyy-MM-dd hh:mm:ss EE,系统默认区域："+df2.format(date));
-        System.out.println("按照指定的格式 yyyy年MM月dd日 hh时mm分ss秒,区域为中国："+df3.format(date));
-        System.out.println("按照指定的格式 yyyy-MM-dd日 hh：mm：ss,区域为美国："+df4.format(date));
-        System.out.println("按照指定格式 yyyy-MM-dd:"+df5.format(date));
-        System.out.println("按照指定格式yyyy年MM月dd日：" +df6.format(date));
+        System.out.println("按照Java默认的日期格式：" + df1.format(date));
+        System.out.println("按照Java默认的日期格式：" + df1.format(date));
+        System.out.println("按照指定的格式 yyyy-MM-dd hh:mm:ss EE,系统默认区域：" + df2.format(date));
+        System.out.println("按照指定的格式 yyyy年MM月dd日 hh时mm分ss秒,区域为中国：" + df3.format(date));
+        System.out.println("按照指定的格式 yyyy-MM-dd日 hh：mm：ss,区域为美国：" + df4.format(date));
+        System.out.println("按照指定格式 yyyy-MM-dd:" + df5.format(date));
+        System.out.println("按照指定格式yyyy年MM月dd日：" + df6.format(date));
     }
 }

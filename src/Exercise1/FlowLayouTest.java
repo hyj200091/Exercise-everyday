@@ -1,4 +1,9 @@
 package Exercise1;
+/**
+ * FolwLayour  流式布局管理器创建一个其它的窗口输出内容
+ * @author 侯粤嘉
+ * 2019.03.25
+ */
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,9 @@
 package Exercise2;
+/**
+ * 边界布局管理器，Borderlayoutposition的练习
+ * @author 侯粤嘉
+ * 2019.03.26
+ */
 
 import javax.swing.*;
 import java.awt.*;

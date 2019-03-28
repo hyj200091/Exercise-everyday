@@ -16,7 +16,6 @@ import java.util.Date;
  */
 public class GridLayoutTest extends JFrame {
     private JPanel[] panels;
-    private JLabel content;
     private JLabel imgLabel;
     private Icon icon;
     private JLabel dateLabel;
